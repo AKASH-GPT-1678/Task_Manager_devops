@@ -1,0 +1,5 @@
+.prettierrc.cjs
+.prettierignore
+.eslintignore
+.eslintrc.cjs
+eslint.config.js
