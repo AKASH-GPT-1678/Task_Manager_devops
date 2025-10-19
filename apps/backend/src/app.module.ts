@@ -17,6 +17,7 @@ import { CardModule } from './card/card.module';
   imports: [
     ConfigModule.forRoot({
       isGlobal: true,
+         envFilePath: '.env', 
     }),
     ServeStaticModule.forRoot({
       rootPath: join(__dirname, '../..', 'frontend', 'dist'),
